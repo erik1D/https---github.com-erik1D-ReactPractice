@@ -1,7 +1,7 @@
 function Header(){    
     return(
-        <header>
-            <h1>Erik</h1>
+        <header className="w-40 m-auto">
+            <h1 className="text-4xl m-4 hover:underline">Erik</h1>
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
