@@ -1,16 +1,12 @@
 function Header(){    
     return(
-        <header className="w-40 m-auto">
-            <h1 className="text-4xl m-4 hover:underline">Erik</h1>
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-        </header>     
+<header>
+    <div className="bg-[#c6c6c6] p-5 font-serif text-2xl ">
+        <a href="" className="m-4 hover:text-white">Home</a>
+        <a href="" className="m-4 hover:text-white">Contact</a>
+        <a href="" className="m-4 hover:text-white">Our Goal</a>
+    </div>
+</header>  
     );
 }
 

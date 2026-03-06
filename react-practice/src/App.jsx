@@ -5,24 +5,40 @@ import Food from './components/Food.jsx'
 import AboutMeCard from './components/AboutMeCard.jsx'
 import DreamJobCard from './components/DreamJobCard.jsx'
 import ProjectShowcaseCard from './components/ProjectShowCaseCard.jsx'
-import pcPic from './assets/pcPic.jpg';
-import techPic from './assets/oakTech.jpg'
 
 //NPM RUN DEV -- START SERVER
 function App() {
   return (    
     <div>
-      <AboutMeCard
+
+
+      <main>
+        <Header/>
+        <h2 className='font-serif text-3xl m-5 p-4'>Welcome to my website!</h2>
+              <AboutMeCard
       myName="Erik Diaz"
       myTitle="Lead Programmer"
       myBlurb="Hi, my name is Erik and I'm a student at Oakland Tech.
       I'm 18 years old and I plan on majoring in Computer Sciecne for college."
-      my1stPic={pcPic}
-      my2ndPic={techPic}
+      myEmoji="🧑‍💻"
       />
-      <main>       
-        <h2 style={{fontFamily: "math", fontSize: "32px", marginBottom: "20px"}}>Welcome to my website!</h2>
-        <Header/>
+
+      <AboutMeCard
+      myName="Ava Lau"
+      myTitle="Designer"
+      myBlurb="Hi, my name is Ava Lau and I'm a student at Oakland Tech.
+      I'm 17 years old and I plan on majoring in Animal Sciecne for college."
+      myEmoji="🐈‍⬛"
+      />
+
+      <AboutMeCard
+      myName="Gabby Lu"
+      myTitle="Developer"
+      myBlurb="Hi, my name is Gabby Lu and I'm a student at Oakland Tech.
+      I'm 17 years old and I plan on majoring in Food Sciecne for college."
+      myEmoji="🧋"
+      />
+      
       </main>
 
       <br /> <br />
